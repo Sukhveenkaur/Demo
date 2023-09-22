@@ -16,9 +16,12 @@ git add file1.txt
  :wq out of vim
  git log
  number of commit id,username,email,date and time,message
+ git commit -m "message"
  version  created
  branch 
- -----------V1----------------v2----------------------------
+ -----------V1----<------------v2----------------------------
  |                             head
  master(we can change its name)
  current version te head point karda hai
+ git restore =>discard changes
+ git restore --staged file.txt => out of stagging area
